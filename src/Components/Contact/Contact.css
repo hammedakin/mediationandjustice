@@ -1,0 +1,54 @@
+/* Contact US */
+
+.contact {
+  padding: 60px 60px;
+  padding-top: 7rem;
+}
+
+* {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.contact .input-style {
+  width: 100%;
+  padding: 8px 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-bottom: 1px solid var(--light-color) !important;
+  box-sizing: border-box;
+  border-radius: 0px;
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--light-color) !important;
+  box-shadow: none;
+  margin-bottom: 1.5rem !important;
+  background: transparent;
+}
+
+.contact .input-style::placeholder {
+  color: var(--light-hover-color);
+}
+
+.contact .textarea-style {
+  font-size: 15px;
+}
+
+.contact .input-style:hover,
+.contact .input-style:active {
+  border: 1px solid transparent !important;
+  border-bottom: 1px solid var(--sec-color) !important;
+}
+
+/* Contact US */
+
+/* Media Query for Mobile device */
+/* Media Query for Mobile device */
+
+@media screen and (max-width: 580px) {
+  .contact {
+  padding: 90px 20px;
+}
+
+}

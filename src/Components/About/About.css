@@ -1,0 +1,90 @@
+/*About Showcase */
+
+.aboutshowcase {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 70vh;
+  overflow-y: hidden;
+  background-repeat: no-repeat !important;
+  background: var(--sec-bold-color) !important;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden !important;
+
+}
+
+.aboutshowcase .aboutshowcase-content {
+  color: #000;
+}
+
+/*About Showcase */
+
+/* About Us */
+.aboutus {
+  background-color: #ffffff;
+}
+.aboutus .aa {
+  align-self: center !important;
+  padding: 8rem 5rem;
+}
+/* About Us */
+
+/* Our Team  */
+.ourteam {
+  background: var(--sec-color);
+  padding: 7rem 0 !important;
+}
+.ourteam img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+/* Our Team  */
+
+/* Who We Are  */
+
+.whoweare .row, .aboutus .row {
+  --mdb-gutter-x: 0rem !important;
+}
+
+.whoweare .bb {
+  background-color: var(--pry-bold-color) !important;
+  padding: 8rem 5rem;
+  color: #ffffff;
+}
+
+
+
+.whoweare .aa {
+  background-color: #ffffff !important;
+  padding: 8rem 5rem;
+}
+/* Who We Are  */
+
+@media screen and (max-width: 576px) {
+  .hide-on-small {
+    display: none !important;
+  }
+
+  .show-on-small {
+    display: block !important;
+  }
+
+  .aboutus .aa {
+    padding: 3rem 2rem;
+  }
+
+  /* Who We Are  */
+
+  .whoweare .bb {
+    padding: 3rem 2rem;
+  }
+
+  .whoweare .aa {
+    padding: 3rem 2rem;
+  }
+  /* Who We Are  */
+}
+/* Media Query for Mobile Screen */
