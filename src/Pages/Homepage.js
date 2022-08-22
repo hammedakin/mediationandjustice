@@ -18,9 +18,8 @@ const Homepage = () => {
         setploading(true);
         setTimeout(() => {
             setploading(false);
-        }, 3500);
+        }, 500);
     }, []);
-
 
     return (
         <>
@@ -37,7 +36,7 @@ const Homepage = () => {
                             <Services />
                             <AboutUs />
                             {/* <HomeBlog /> */}
-                            <Testimonials />
+                            {/* <Testimonials /> */}
                         </div>
                     </main>
                 </>

@@ -81,7 +81,7 @@ const Footer = () => {
 
                 <div class="text-center p-4 light-text" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
                     © 2022 Copyright:
-                    <a class="fw-bold sec-bold-text" href="https://mediationandjustice.com/"> MCHRC</a>
+                    <a class="fw-bold sec-bold-text" href="https://mediationandjustice.org/"> MCHRC</a>
                 </div>
             </footer>
 

@@ -20,7 +20,7 @@ const OurTeam = () => {
                 <img src={img} width="50%" alt="" />
 
                 <div class="py-3">
-                  <h5> Adekunle Ajasin</h5>
+                  <h5> Badejoko Adeniji O. </h5>
                   <h6> Chairman </h6>
                 </div>
               </div>
@@ -31,8 +31,8 @@ const OurTeam = () => {
                 <img src={img} width="50%" alt="" />
 
                 <div class="py-3">
-                  <h5> Adekunle Ajasin</h5>
-                  <h6> Manager </h6>
+                  <h5> Akinyemi Kehinde A. </h5>
+                  <h6> Chairman </h6>
                 </div>
               </div>
             </div>
@@ -42,8 +42,8 @@ const OurTeam = () => {
                 <img src={img} width="50%" alt="" />
 
                 <div class="py-3">
-                  <h5> Adekunle Ajasin</h5>
-                  <h6> Manager </h6>
+                  <h5> Olagoke Sabit A. </h5>
+                  <h6> Chairman </h6>
                 </div>
               </div>
             </div>

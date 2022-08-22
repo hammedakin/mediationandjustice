@@ -14,8 +14,10 @@ const Showcase = () => {
                         data-aos-delay="1000"
 
                     >
+                        <p className="h6 ms-2">(RC:125096)</p>
 
-                        <h1 className='lh-base'> MEDIATION CONCILIATION AND HUMAN RIGHTS CENTER</h1>
+                        <h1 className='lh-base'> MEDIATION CONCILIATION AND HUMAN RIGHTS CENTER
+                        </h1>
                         <h5 className='fw-light'>
                             <i> equity and justice ...</i>
                         </h5>
@@ -25,7 +27,9 @@ const Showcase = () => {
                             data-aos-duration="3000"
                             data-aos-delay="2000"
                         >
+                            
                             Mediation Conciliation and Human Rights Center (MCHRC) seeks to enhance knowledge, advocate for observance of human rights, and encourage exchange of information and experience for the betterment of the citizenry through instrumentality of law, education, enlightenment & humanification.
+
                         </p>
                     </div>
                 </div>
