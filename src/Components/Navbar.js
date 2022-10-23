@@ -17,26 +17,28 @@ const Navbar = () => {
   return (
     <>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <div class="container">
-    <Link to="/" className="navbar-brand" >
-      <img src={logo} alt="Mchrc logo" width={'30%'} className="" />
-    </Link>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-mdb-toggle="collapse"
-      data-mdb-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <i class="fas fa-bars"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav text-center animated fadeInUp mx-auto">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <Link to="/" className="navbar-brand" >
+            <img src={logo} alt="Mchrc logo" width={'30%'} className="" />
+          </Link>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center animated fadeInUp mx-auto">
               <li class="nav-item">
-                <NavLink tag={Link} activeClassName="active1 " to="/">
+                <NavLink tag={Link}
+                  // ClassName="active"
+                  to="/">
                   Home
                 </NavLink>
               </li>
@@ -45,8 +47,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <NavLink
                   tag={Link}
-                  activeClassName="active1"
-                  className="active1"
+                  // className="active"
                   to="/about"
                 >
                   About
@@ -56,7 +57,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <NavLink
                   tag={Link}
-                  activeClassName="active1"
+                  // ClassName="active"
                   to="/contact"
                 >
                   Contact
@@ -66,7 +67,7 @@ const Navbar = () => {
               {/* <li class="nav-item">
                 <NavLink
                   tag={Link}
-                  activeClassName="active1"
+                  // ClassName="active"
                   to="/blog"
 
                 >
@@ -83,9 +84,9 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
-    </div>
-  </div>
-</nav>
+          </div>
+        </div>
+      </nav>
       <ScrollTopTopButton />
     </>
   );

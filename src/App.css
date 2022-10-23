@@ -178,7 +178,7 @@ nav .navbar-brand img {
   width: 100% !important;
 }
 
-.active1 {
+.active {
   border-bottom: var(--pry-color) solid 2px !important;
   transition: 0.1s ease !important;
 }
@@ -197,7 +197,7 @@ nav .nav-item a {
   display: block;
   padding: 0.5rem 1rem;
   margin: 0 1rem;
-  border-bottom: transparent solid 2px !important;
+  border-bottom: transparent solid 2px;
 }
 
 nav .nav-item a:hover {

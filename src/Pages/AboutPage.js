@@ -7,12 +7,12 @@ import WhoWeAre from '../Components/About/WhoWeAre';
 
 const AboutPage = () => {
     return ( 
-        <>
+        <main>
         <AboutShowcase/>
         <AboutUs/>
-        <WhoWeAre/>
+        {/* <WhoWeAre/> */}
         <OurTeam/>
-        </>
+        </main>
      );
 }
  

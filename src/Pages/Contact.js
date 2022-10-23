@@ -5,6 +5,7 @@ const Contact = () => {
     return (
         <>
 
+<main>
 
             <section class="contact pry-bold-text ">
                 <div class="" id="contact">
@@ -146,6 +147,7 @@ const Contact = () => {
                 </div>
 
             </section>
+</main>
 
         </>
 

@@ -21,7 +21,7 @@ const OurTeam = () => {
 
                 <div class="py-3">
                   <h5> Badejoko Adeniji O. </h5>
-                  <h6> Chairman </h6>
+                  <h6> Chairman BOT </h6>
                 </div>
               </div>
             </div>
@@ -31,8 +31,8 @@ const OurTeam = () => {
                 <img src={img} width="50%" alt="" />
 
                 <div class="py-3">
-                  <h5> Akinyemi Kehinde A. </h5>
-                  <h6> Chairman </h6>
+                  <h5> Comrade Kehinde Akinyemi JP </h5>
+                  <h6> CEO </h6>
                 </div>
               </div>
             </div>

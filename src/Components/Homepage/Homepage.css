@@ -46,8 +46,8 @@ margin-bottom: 3rem;
   padding: 3rem 1rem !important;
 }
 .core-values .first:hover {
-  background-color: var(--sec-bold-color);
-  color: var(--dark-color);
+  background-color: var(--pry-color);
+  color: var(--light-color);
   transform: scale(1.1);
   transition: 0.5s ease;
 }
