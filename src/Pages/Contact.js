@@ -54,7 +54,7 @@ const Contact = () => {
 
                                         <div class="d-flex my-4 border-bottom border-start p-3 align-items-center border-2 border-success">
                                             <i className='bi bi-telephone h6 me-4' />
-                                            <h6>+2348070679494</h6>
+                                                <h6>+2348068300078</h6>
                                         </div>
 
                                         <div class="d-flex my-4 border-bottom border-start p-3 align-items-center border-2 border-success">

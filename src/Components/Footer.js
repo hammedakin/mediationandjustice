@@ -73,7 +73,7 @@ const Footer = () => {
                                   mediationandjustice@gmail.com
                                 </p>
                                 <p> <i className='bi bi-telephone h6 me-4' />
-                                    +2348070679494</p>
+                                    +2348068300078</p>
                             </div>
                         </div>
                     </div>
